@@ -1,0 +1,42 @@
+# Example replacements file for resume anonymization
+# Format: original_text|replacement_text
+# Lines starting with # are comments and will be ignored
+#
+# This file shows examples of how to anonymize different types of personal information
+# Copy this file to replacements.txt and customize with your actual information
+
+# Name and contact information
+John Doe|Jane Smith
+555-123-4567|999-999-9999
+john.doe@email.com|jane.smith@example.com
+
+# Company names - replace with generic equivalents
+TechCompany Inc.|Large Tech Corporation
+StartupCo|Small Startup Company
+Digital Solutions Agency|Marketing Agency
+
+# Geographic locations - anonymize cities and states
+San Francisco, CA|Major City, ST
+Austin, TX|Mid-size City, ST
+College Town, ST|University City, ST
+Hometown, ST|Small Town, ST
+
+# Educational institutions
+State University|Public University
+Community College|Local College
+
+# Websites and URLs - replace with generic placeholders
+https://www.techcompany.com|https://www.company.com
+https://www.startupco.com|https://www.startup.com
+
+# Job titles can also be anonymized if needed
+# Software Engineer|Developer
+# Full-Stack Developer|Web Developer
+
+# Tips for creating your own replacements:
+# 1. Replace specific company names with generic descriptions
+# 2. Use "Major City, ST" or "Small Town, ST" for locations
+# 3. Replace university names with "State University" or "Private College"
+# 4. Use generic email domains like @example.com
+# 5. Replace phone numbers with 999-999-9999 format
+# 6. Keep professional experience descriptions intact - only replace identifying info

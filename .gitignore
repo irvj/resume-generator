@@ -1,0 +1,30 @@
+# Personal resume files (using wildcards to avoid specific names)
+*_resume.md
+*_resume.pdf
+!example_resume.md
+!example_resume.pdf
+*_cover.md
+*_cover.pdf
+
+# Personal replacement files
+replacements.txt
+!example_replacements.txt
+
+# Generated/temporary files
+anon_resume.md
+anon_resume.pdf
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.directory
+
+# Temporary files
+*.tmp
+*.temp
+*~

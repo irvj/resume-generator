@@ -1,0 +1,121 @@
+/* Reset & base layout */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+blockquote,
+table,
+pre,
+code {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family:
+        "Roboto",
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #1a1a1a;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 4px;
+    word-wrap: break-word;
+}
+
+@page {
+    size: letter;
+    margin: 0.6in 0.8in;
+}
+
+/* Headings */
+h1 {
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid #333;
+    margin-top: 1.2em;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-top: 1.5em;
+    margin-bottom: 0.4em;
+    letter-spacing: 0.01em;
+}
+
+h3 {
+    font-size: 1em;
+    margin-top: 0.8em;
+    margin-bottom: 0.3em;
+    font-weight: 500;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+/* Rules */
+hr {
+    border: none;
+    border-bottom: 1px solid #333;
+    margin: 1.2em 0;
+}
+
+/* Lists */
+ul,
+ol {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0.3em 0;
+}
+
+li {
+    margin: 0.2em 0;
+    line-height: 1.5;
+}
+
+/* Blockquotes */
+blockquote {
+    margin: 0.3em 0 1em 0;
+    padding: 0;
+}
+
+/* Custom classes */
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.3em;
+}
+
+.my-name {
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    white-space: nowrap;
+}
+
+.contact-info {
+    font-size: 0.95em;
+    margin-left: auto;
+    color: #333;
+}
+
+.align-right {
+    margin-left: auto;
+    font-size: 0.95em;
+    color: #555;
+    font-style: italic;
+}
